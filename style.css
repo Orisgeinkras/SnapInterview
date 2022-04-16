@@ -30,12 +30,19 @@
     100% {opacity:1;}
 }
 .element-fade-in {
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+}
+.element-long-fade-in {
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
     -moz-animation: fadeIn 5s;
     -o-animation: fadeIn 5s;
     -ms-animation: fadeIn 5s;
-  }
+}
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -58,6 +65,8 @@
     display: table;
 }
 
+
+
 body {
     background-color: sienna;
 }
@@ -66,4 +75,31 @@ h1 {
     text-align: center;
     background-color: tan;
     font-family: "Baskerville Italic";
+    margin-bottom: 0;
+}
+
+main {
+    margin-bottom: 15px;
+}
+
+main div{
+    background-color: tan;
+}
+
+.mobile-hidden {
+    display: none;
+}
+.desktop-hidden {
+    display: block;
+}
+
+/*For desktop!*/
+@media screen and (min-width: 768px){
+    .mobile-hidden{
+       display: block;
+    }
+    .desktop-hidden {
+        display: none;
+    }
+
 }
