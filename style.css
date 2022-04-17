@@ -86,6 +86,23 @@ main div{
     background-color: tan;
 }
 
+nav div{
+    background-color: tan;
+    text-align: center;
+}
+
+.firstnav {
+    border-right: 5px solid sienna;
+}
+
+nav div a {
+    border: 3px 3px 3px 3px;
+    border-style: solid;
+    border-color: sienna;
+    padding: 1em 1em 1em 1em;
+    border-radius: 25px;
+}
+
 main img {
     height:100px;
     width: 100px;
